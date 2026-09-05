@@ -55,4 +55,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-sqlite3, php8.2-zip, php8.2-curl, php8.2-mbstring, libreoffice, imagemagick"
+    packages = "php8.2-sqlite3, php8.2-zip, php8.2-curl, php8.2-mbstring,, php8.2-gd, libreoffice, imagemagick"

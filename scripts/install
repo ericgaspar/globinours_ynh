@@ -22,6 +22,7 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 mkdir $install_dir/data $install_dir/public/media $install_dir/storage
+chown -R $app:$app $install_dir/data $install_dir/public/media $install_dir/storage
 chmod -R u+rwX $install_dir/data $install_dir/public/media $install_dir/storage
 
 #=================================================
