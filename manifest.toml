@@ -14,9 +14,6 @@ maintainers = ["eric_G"]
 [upstream]
 license = "free"
 website = "https://globinours.fr"
-demo = "https://demo.example.com"
-admindoc = "https://doc.yunohost.org/dev/packaging/"
-userdoc = "https://yunohost.org/apps"
 code = "https://nnsprod.com/git/oversu/Globinours"
 
 [integration]
@@ -53,7 +50,7 @@ ram.runtime = "50M"
 
     [resources.install_dir]
     group = "www-data:r-x"
-    
+
     [resources.permissions]
     main.url = "/"
 
