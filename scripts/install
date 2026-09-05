@@ -21,7 +21,7 @@ ynh_script_progression "Setting up source files..."
 # Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R u+rwX data public/media storage
+chmod -R u+rwX $install_dir/data $install_dir/public/media $install_dir/storage
 
 #=================================================
 # APP INITIAL CONFIGURATION
